@@ -1,0 +1,127 @@
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color:darkgoldenrod;
+    position:absolute;
+   
+}
+
+.log{
+    margin-top:5px;
+    position:absolute;
+    height:auto;
+    width:100px;
+  
+
+  }
+body {
+    display: block;
+    margin: 10px;
+}
+.main {
+    height: auto;
+    width: 100%;
+    border: 1px solid darkblue;
+    background-color: silver;
+}
+
+.nav {
+   
+   margin-right: 20px;
+    height: 50px;
+    width: 200px;
+    margin-top:10px;
+    border: 1px solid green;
+    background-color:rgb(141, 117, 55);
+    float: right;
+    position:relative;
+    
+}
+.img1{
+    height:100px;
+    width:200px;
+    position:relative;
+    background-color: rgb(97, 0, 48);
+}
+.banner
+{
+    margin-top:120px;
+    position:relative;
+    border:1px solid blueviolet;
+    background-color:goldenrod;
+    background-image: url("1.jpg");
+    text-align:center;
+    color:red;
+
+    
+
+}
+.intro
+{
+    margin-top:10px;
+    position:relative;
+    border:1px solid blueviolet;
+    background-image: url("l2.jpg");
+    text-shadow: rgb(101, 63, 205);
+    text-align:center;
+    background-size:312px;
+    background-repeat: repeat-x;
+    font-size:32px;
+    background-color:rgb(97, 0, 48);
+
+    
+
+}
+
+.sideb{
+    margin-top:5px;
+    width:12%;
+    height: 250px;
+    position: relative;
+    background-color:springgreen;
+    color:indigo;
+    float:left;
+  
+
+
+
+}
+.asiderg{
+    float:left;
+    margin-top:5px;
+    width:30%;
+    margin-left:13%;
+    height: 240px;
+    margin-left:13%;
+    background-color:rgb(0, 133, 104);
+    color:rgb(128, 41, 2);
+    position:relative;
+    border: 1px solid rgb(226, 43, 43);
+    
+
+}
+
+.side2b{
+    float:left;
+    margin-top:5px;
+    width:18%;
+    height: 250px;
+    margin-left:13%;
+    background-color:red;
+    color:rgb(128, 41, 2);
+    position:relative;
+    border: 1px solid rgb(226, 43, 43);
+    
+
+}
+.footer{
+    color:rgb(185, 29, 29);
+    margin-top:19%;
+    background-color:rgb(187, 71, 255);
+    height:auto;
+    text-align: center;
+    width:auto;
+    border:1px solid darkslateblue;
+
+}

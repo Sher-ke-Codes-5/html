@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <header>  <h1> Admission Form </h1> </header>
+    <link href="form.css" rel="stylesheet" type="text/css" ></link>
+    <style>
+    h1{
+        color:blue;
+        font-size:40;
+    }
+    </style>
+    <body>
+        <form>
+            <label> First Name : </label>
+            <input type="text" class="a" name="fname" pattern="A-Z" placeholder="ABC">
+        <br>
+            <label>Email:</label>
+            <input type="email" class="e" required> </br>
+            <label>
+                CNIC:
+            </label>
+            <input type ="text" class="c" name="cn" pattern="[0-9] {5} [-] [0-9] {7} [-] [0-9] {1}"><br>
+            <label>
+                
+                Gender :
+            </label>
+
+            <input type="radio"  name="gender"> Male
+            <input type="radio"  name="gender"> Female
+            <br>
+            <label>
+
+                Skils: 
+            </label>
+            <input type="checkbox" name="ch1">PHP
+            <input type="checkbox" name="ch2">Java
+            <input type="checkbox" name="ch3">Css
+            <input type="checkbox" name="ch4">Html
+            <br>
+            <br> 
+            <label>
+                Province :
+            </label>
+            <select>
+                <option> Punjab</option>
+                <option> Sindh</option>
+                <option> Balochistan</option>
+                <option> Kpk</option>
+                <option selected></option>
+            </select>
+             <br>
+             color choose
+             <input type="color" name="colorchosen">
+             <br>
+             <input type="file" name="file choose ">
+             Date
+             <input type="date" name=" date">
+             <input type="range" name="Range age">
+             
+         
+            <textarea  rows="8" cols="7">
+
+            </textarea>
+            <label> Submit : </label>
+            <input type= "submit" name ="subm" >
+            <input type="reset" name="rest">
+
+
+
+        </form>
+    </body>
+</html>

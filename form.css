@@ -1,0 +1,29 @@
+
+input [type="email"]{
+    width:20px;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-left:10%;
+
+}
+label
+{
+    padding:12px 20px;
+    color:blue;
+    padding: 12px 20px;
+    border:1px solid rgb(0, 0, 0);
+    position:absolute;
+    
+}
+input[type="text"]
+{
+    width:20%;
+    padding:12px 20px;
+    margin:8px 0;
+    border:1px solid brown;
+    margin-left:10%;
+   
+   
+
+}
