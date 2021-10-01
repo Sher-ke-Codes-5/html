@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+        <title> Quiz 4 </title>
+<body>
+      
+            <h2> Welcome Screen </h2>
+
+  
+
+
+
+    <form>
+        <input type="radio" name="Sign" value="SignIn" id="SignIn"> 
+        <label for="SignIn">SignIn</label><br>
+        <input type="radio" name="Sign" value="SignUp" id="SignUp">
+        <label for="SignUp">SignUp</label><br><br>
+        <button onclick="function f1()" id="submit">submit</button>
+    </form>
+    <script>
+     document.getElementById('submit').onclick = function f1() {
+    var radio = document.querySelector('input[type=radio][name=SignIn]:checked');
+    if (radio.value === 'SignIn') 
+    {
+        
+        header("location:home.php");
+
+    }
+}
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+   
+</form>
+
+</body>
+
+
+</html>

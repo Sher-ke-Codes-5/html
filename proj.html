@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+     
+   
+    <!-- Comments are used for your understanding-->
+    <!-- For best of the fonts I have copy link -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+    <script src="font.js"></script>
+    <style>
+       
+      
+        </style>
+        
+    <link rel="stylesheet" href="proj.css">
+    <script src="home.js"></script>
+  
+<header>
+    <div class="container" onclick="myFunctn(this)">
+
+
+
+<a href="#" class="logo"><span>Travel  </span>Agency</a>
+</div>
+
+
+
+
+
+<nav class="navig">
+   <!---Move to an element with a specified id within the page like href="#ForPackages "- -->
+  
+
+  </script>
+    <a href="#Home">Home</a>
+    <a href="#Forbooking">For booking</a>
+    <a href="#ForPackages"> For Packages </a>
+    <a href="#ForServices">For Services</a>
+    <a href="#ContactUs">Contact Us</a>
+    <a href="#Photos ">Photos</a>
+    
+    </nav>
+
+
+    <div class="headericons">
+        <!-- using font awesome website for differnt icons  sysntx written below-->
+        
+        
+     
+        
+        <div class="lbtn">
+            <i class="fa fa-user"  ></i>
+
+        </div>
+        <div class="hdcan">
+            <i class="fas fa-times" > </i>
+        </div>
+      
+
+
+
+    </div>
+
+</header>    
+    <form action="" class="SP" >
+        <input type="search" placeholder="ABC" >
+        <div class="SPB">
+            <i class="fas fa-search" ></i>
+
+        </div>
+
+        <div class="CPB">
+            <i class="fas fa-times"></i>
+        </div>
+       <script>
+           const sb=document.querySelector(".SPB");
+           const scb=document.querySelector(".CPB");
+           const spb=document.querySelector(".SP");
+        
+           sb.onclick=()=>{
+           spb.classList.add("active");
+         
+           
+           }
+    scb.addEventListener('click', () =>
+    {
+    spb.classList.remove('active');
+    });
+         
+
+           
+        
+
+       </script>
+       
+  
+    </form>
+    <div class="d">
+    <button onclick="f1()">dark mode</button>
+    </div>
+
+<script>
+function f1()
+ {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<div class="section2">
+   
+       
+    <h2> Sign in </h2>
+   
+<form action="proj.php" method="POST">
+   
+<input type="Name" class="n1"placeholder="Name Enter" name ="Name"><br>
+<input type="Email" class="n2" placeholder="Email Enter" name="Email"><br>
+<input type="submit" value="sb">
+</form>
+</div>
+
+<script>
+    const t1=document.querySelector(".section2");
+    const t2=document.querySelector(".hdcan");
+    const t3=document.querySelector(".lbtn");
+    const t4=document.querySelector("section2 form");
+    t3.addEventListener('click', () =>
+    {
+    t1.classList.add('active');
+  
+    });
+    t2.addEventListener('click', () =>
+    {
+    t1.classList.remove('active');
+  
+    });
+</script>
+
+
+
+                
+<section class="Home" id="Home">
+        
+    <div class="bann">
+    <h3>Where The journey begin </h3>
+    <a href="#" class="btn">Visit Us for awesome destination !!</a><br>
+
+        
+</div>
+
+<div class="vb1">
+
+    <i class="	fa fa-step-forward"></i>
+
+  
+ </div>
+
+        <div class="cnt">
+        <video src="1.mp4" loop controls class="vid1"></video>
+        
+        <video src="2.mp4" loop controls class="vid2" ></video>
+
+        </div>
+
+</section>
+<script>
+    var j3=document.getElementsByClassName(".vb1");
+    var j4 =document.getElementsByClassName(".vid1");
+
+    j4.onclick=()=>{
+           j3.classList.add("active");
+         
+           }
+</script>
+
+
+  <section class="Forbooking" id="Forbooking">
+
+    <h2> Book Now  </h2>
+   
+<form action="proj.php" method="POST" >
+   
+<input type="Name" class="n1"placeholder="Name Enter"><br>
+<input type="Email" class="n2" placeholder="Email Enter"><br>
+<input type="text" class="n2" placeholder="destination"><br>
+<input type="date" class="n2" placeholder="Leaving time"><br>
+<input type="date" class="n2" placeholder="arriving time"><br>
+<input type="submit" value="sb">
+</form>
+
+
+  </section>         
+
+
+<section class="ForPackages" id="ForPackages">
+
+<img src="l1.jpg" class="l1">
+<img src="l2.jpg" class="l2">
+
+</section>
+       
+</body>
+
+
+</html>
+
+

@@ -1,0 +1,303 @@
+
+body{
+    background-color:paleturquoise;
+    height:auto;
+    width:auto;
+    
+  
+}
+::selection {
+    color:blue;
+    background-color: grey;
+    transition: width 2s;
+  }
+ 
+  
+header{
+    position:absolute;
+    margin:0;
+    width:98%;
+    justify-content: space-between;
+    background-color:slategray;
+    filter: brightness();
+   display: flex; 
+    padding-top:16px;
+    padding-right:72px;
+    padding-bottom:16px;
+    padding-left:72px;
+  
+   
+}
+header.logo
+{
+    font-size: 60px; 
+    font-weight: bolder;
+    color:yellow;
+    text-transform: capitalize
+}
+
+header.logo span{
+    color:gold;
+    font-size:22px;
+
+}
+header.headericons i
+ {
+  
+    padding:5px;
+    margin-left:-100px;
+    color:green;
+    font-size:20px;
+   
+   
+}
+.headericons .lbtn{
+margin-left:70%;
+}
+.headericons.hdcan{
+    margin-top:60%;
+    
+}
+
+
+*{
+font-family: 'Be Vietnam Pro', cursive;
+box-sizing:border-box;
+border:none;
+
+}
+html[data-theme="dark"]{
+
+    background: #000;
+    filter: invert(1) hue-rotate(180deg);
+    overflow-x: hidden;
+    background-color: lightblue;
+  
+   
+   
+
+}
+.dark-mode {
+
+    background-color:black;
+    color: grey;
+  }
+.d{
+    position:absolute;
+    margin-top:6%;
+   right: 700px;
+   color:black;
+   margin-right:-50%;
+clip-path: circle(62.5% at 48% 48%);
+cursor: pointer;
+
+
+}
+header.navig a
+{
+
+    margin:0 .8rem;
+    padding:22px;
+    color:grey;
+    font-size:22px;
+   
+
+}
+.headericons i{
+font-size: 20px;
+color:violet;
+cursor: pointer;
+margin-right: 40px;
+}
+.SP{
+    padding:14px;
+    margin-top:12%;
+    position:absolute;
+    margin-top:6%;
+    height: 60px;
+    width:-0ch;
+ 
+   
+
+}
+.SP.active{
+    width:50%;
+}
+.SP input{
+height:100%;
+width:100%;
+color:brown;
+clip-path:polygon();
+background-color:black;
+font-size:17px;
+border-radius: 20px;
+
+
+}
+
+.SP .SPB
+{
+position:relative;
+height: 40px;
+
+width:70px;
+padding:2%;
+right:-102%;
+margin-left:-10px;
+
+top:-90%;
+font-size:20px;
+color:rgb(7, 3, 7);
+background-color: white;
+text-align: center;
+transform:translateX(-10%);
+transform:translateX(10%);
+border-radius: 50px;
+cursor:pointer;
+}
+.SP .CPB{
+    position:absolute;
+    right: -90px;
+    background-color:white;
+    top:20px;
+    clip-path:polygon(90);
+    border-radius: 50px;
+    cursor:pointer;
+    width:20px;
+    font-size:30px;
+}
+.section2{
+    display:none;
+   
+
+    
+    
+}
+.section2 form{
+    position:absolute;
+   background-color:peachpuff;
+   padding-top:40px;
+   padding-right: 40px;
+   padding-left: 64px;
+   padding-bottom:64px;
+   border-radius: 30px;
+   width:480px;
+   margin:64px;
+}
+
+    
+.section2.n2{
+    margin-top:6%;
+    padding:4%;
+}
+.section2 h2{
+    font-size:20px;
+    height:10%;
+    margin-left:350%;
+    margin-top:-3%;
+    right:-30%;
+    text-align: center;
+    background-color: plum;
+
+}
+.section2.active{
+    position:absolute;
+    text-align: center;
+    background-color:orange;
+    margin-top:14%;
+    margin-left: 30%;
+    height:50%;
+    width:50%;
+    display: flex;
+
+}
+.section2 form.active{
+    display:none;
+}
+
+  
+
+.Home
+{
+    margin-top:40%;
+    position:absolute;
+    font-size:32px;
+    background: chartreuse;
+    color:rgb(0, 223, 163);
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    left:3%;
+    height:auto;
+    width:auto;
+}
+.Home.cnt{
+    top:0;
+    bottom:0;
+    text-align: center;
+}
+.Home.vb1{
+    font-size:32px;
+    position:relative;
+    background-color:aqua;
+}
+  .Home.vid1
+  {
+    top:30%;
+      position:relative;
+      background-color: peru;
+      font-size:30px;
+      width:80%;
+  }
+.Home.vid2
+{
+    position:relative;
+    background-color: peru;
+    font-size:30px;
+    width:80%;
+}
+.vid1.active{
+    display:hide;
+}
+.Forbooking{
+    margin-top:170%;
+   
+    text-align: center;
+    position:absolute;
+    font-size:32px;
+    background: chartreuse;
+    color:rgb(0, 223, 163);
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    left:73%;
+    background-image:url("1.png");
+    flex:1 1 1280px;
+    height:65%;
+    width:auto;
+}
+
+.ForPackages{
+    margin-top:200%;
+    height:100px;
+    width:100px;
+    text-align: center;
+    position:absolute;
+    font-size:32px;
+    background: chartreuse;
+    color:rgb(0, 223, 163);
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    left:20%;
+  
+  
+}
+.ForPackages .l1{
+    height:300px;
+    width:300px;
+}
+.ForPackages .l2{
+    height:300px;
+    width:300px;
+}
